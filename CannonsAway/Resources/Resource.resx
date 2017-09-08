@@ -118,28 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="cannon1a" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cannon1a.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="castleCrashed" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\castleCrashed.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bang" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bang.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cartoon-castle-illustration-shows-old-lock-landscape-summer-background-meadows-road-illustration-done-style-31743298" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartoon-castle-illustration-shows-old-lock-landscape-summer-background-meadows-road-illustration-done-style-31743298.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Bang1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bang1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="cartoon-castle-clipart-1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\cartoon-castle-clipart-1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Cannonball" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Cannonball.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="CastleYouWin" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\CastleYouWin.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="battle002" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>battle002.wav;System.IO.MemoryStream, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
 </root>

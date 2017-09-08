@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Resources\Resource.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resource.resx</DependentUpon>
+    </Compile>
+    <Compile Include="FireClass.cs" />
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -53,6 +59,10 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="ScoredClass.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -61,7 +71,12 @@
     <Compile Include="Properties\Resources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
     </Compile>
+    <EmbeddedResource Include="Resources\Resource.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resource.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -74,6 +89,36 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-castle-illustration-shows-old-lock-landscape-summer-background-meadows-road-illustration-done-style-31743298.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cartoon-castle-clipart-1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\castleCrashed.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cannon1a.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cannonball.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bang.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bang1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\CastleYouWin.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\battle002.wav" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\applause8.wav" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
